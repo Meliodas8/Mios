@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 //Vamos a tratar de que pongamos lo que pongamos nos de un resultado ya sea un numero entero con decimales o una palabra
@@ -6,7 +7,7 @@ using namespace std;
 int main() {
     int numero;
     float decimal;
-    char caracter;
+    char caracter[40];
     string multi;
     cin >> numero;
     cout << numero;
